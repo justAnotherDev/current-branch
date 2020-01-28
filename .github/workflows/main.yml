@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  get-current-branch-job:
+  current-branch-job:
     runs-on: ubuntu-latest
     name: Test action
     steps:
