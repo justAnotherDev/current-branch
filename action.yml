@@ -1,9 +1,9 @@
 # action.yml
-name: 'Get Branch Name and Tag'
-description: 'Get current branch name and corresponding branch tag if needed.'
+name: 'Current Branch'
+description: 'Grab the current branch and/or tag of your repo 👍'
 branding:
-    icon: 'activity'  
-    color: 'white'
+    icon: 'git-branch'
+    color: 'black'
 outputs:
   branch:
     description: 'Current branch name'
