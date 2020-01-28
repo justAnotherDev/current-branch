@@ -13,5 +13,5 @@ The corresponding tag name. If `master` -> `latest`, `branch-name` for the other
 
 ## Example usage
 ```
-uses: ryolambert/current-branch@v1
+uses: ryolambert/current-branch@v1.0
 ```
