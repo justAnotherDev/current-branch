@@ -8,5 +8,5 @@ jobs:
     - name: Use action
       id: get-branch
       uses: ryolambert/current-branch@v1.0
-    - name: Echo outpus
+    - name: Echo outputs
       run: echo "name=${{ steps.get-branch.outputs.branch }} - tag=${{ steps.get-branch.outputs.tag }}"
